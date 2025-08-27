@@ -68,7 +68,7 @@ export function TestimonialsSection() {
             </div>
 
             <blockquote className="text-xl md:text-2xl text-center text-foreground mb-8 leading-relaxed">
-              "{currentTestimonial.quote}"
+              {`"${currentTestimonial.quote}"`}
             </blockquote>
 
             <div className="text-center">
